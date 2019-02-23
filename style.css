@@ -1,0 +1,613 @@
+
+/* Global */
+body{
+    font: 22px/1.5 Tahoma,Arial, Helvetica,sans-serif;
+    padding: 0;
+    margin: 0;
+   
+}
+
+.container {
+    width: 88%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.container2 {
+    width: 65%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.container3 {
+    width: 55%;
+    margin: auto;
+    overflow: hidden;
+}
+.container4{
+    width: 90%; 
+    margin: auto; 
+    overflow: hidden;
+}
+
+.paddingTop {
+    margin: 50px 0 0 20px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.button{
+    background: #2C53BB;
+    color: #ffffff;
+    font: inherit;
+    padding: 10px;
+    border: solid;
+    border-color: #284BA8;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button2{
+    background: #2C53BB;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 10px 5px 10px 5px;
+    border: solid;
+    border-color: #284BA8;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.importantText {
+    font-size: 68px;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+.Text2 {
+    font: 22px/2 Tahoma,Arial, Helvetica,sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.Text3{
+    font: 18px/1.5 Tahoma,Arial, Helvetica,sans-serif;
+    padding: 0;
+    margin: 0;
+}
+::placeholder { 
+    color: #9AAEEA;
+}
+
+.inline {
+    display: inline !important
+}
+
+.Box {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+   
+}
+
+.logo2  {
+    display: inline-block;
+    width: 24%; 
+}
+
+.team{
+    display: inline-block;
+    width: 24%;
+    padding: 40px 0 40px 0;
+}
+
+/* header */
+header{
+    background: #456BD9;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 40px;
+}
+
+.cloud {
+    width: 100%;
+    height: 30px;
+    background: url('images/clouds.png') no-repeat;    
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header ul{
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+
+header ul:after {
+    display: inline-block;
+    content: " ";
+    width: 100%;
+    height: 0;
+}
+
+header li {
+    display: inline-block;
+    
+    
+
+}
+
+header .logo {
+    float: left;
+}
+
+header nav {
+    float: right;
+    width: 85%;
+    margin-top: 10px;
+    
+}
+
+.headerSec {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.headerSec1 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.headerInfo {
+    width: 49%;
+    padding-bottom: 40px;
+}
+
+.headerInfo1 {
+    width: 60%;
+    padding-bottom: 40px;
+}
+.headerInfo2 {
+    width: 50%;
+    padding-bottom: 40px;
+    float: left; 
+    text-align: right;
+}
+
+.headerInfo3 {
+    width: 90%;
+    padding-bottom: 40px;
+}
+
+.form {
+    padding-top:60px;
+}
+
+.Email {
+    background-color: #456BD9;
+    color:#9AAEEA;
+    width: 53%;
+    padding: 10px 5px 10px 5px;
+    border: solid;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+
+/* main page */
+#book{
+    width: 15%;
+    float: left;
+}
+#webApp {
+    width: 80%;
+    float: right;
+}
+.main1 {
+    width: 60%;
+    float: left;
+}
+
+.container3 a {
+    display:inline-block;
+    width: 30%;
+}
+
+.Approach1 {
+    width: 60%;
+    
+}
+
+.Approach2 {
+    width: 38%;
+    
+}
+.Article {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info1{
+    width: 65%;
+}
+
+.info2{
+    width: 38%;
+}
+.info3{
+    width: 65%;
+   
+}
+
+.info4{
+    width: 35%;
+    padding-bottom: 40px
+}
+.info5{
+    width: 100%;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.info6{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* footer */
+footer{
+    background-color: #9A9576; 
+    line-height: 15px;
+    font-size: 20px;
+}
+
+.footContainer {
+    width: 88%;
+    margin: auto;
+    overflow: hidden;
+  
+}
+
+.socialMedia {
+    margin-bottom: 20%;
+    margin-top: 20px; 
+    text-align: right;
+    
+    
+}
+
+.footerInfo {
+    width: 32%;
+    padding-top: 20px;
+    float: left;
+    
+}
+.footerInfo2 {
+    width: 32%;
+    padding-top: 20px;
+    margin-left: 15px;
+    float: left;
+     
+}
+.footerInfo3 {
+    width: 32%;
+    padding-top: 20px;
+    float: right;
+    text-align: right;
+    font-size: 15px;   
+}
+
+footer a{
+    color: blue;
+}
+
+/* big-tablet and Ipad  media query*/
+@media(max-width: 1040px){
+    body{
+        font: 18px/1.5 Tahoma,Arial, Helvetica,sans-serif;
+    }
+
+    .container2 {
+        width: 78%;
+    }
+    .container3 a {
+        width: 45%;
+    }
+
+
+    footer {
+        font-size: 15px
+    }
+    .footerInfo3 {
+        font-size: 12px;
+
+    }
+    .importantText {
+        font-size: 50px;
+
+    }
+
+    .Text2 {
+        font-size: 17px;
+   
+    }
+    .Text3{
+        font-size: 15px;
+       
+    }
+
+    main a {
+        width: 45%;
+    }
+
+    .Box {
+        width: 45%;
+    }
+    .info1{
+        width: 100%;
+    }
+    
+    .info2{
+        width: 100%;
+    }
+
+    .info6{
+        flex-direction: column;
+    }
+}
+
+
+
+
+/* small tabletmedia query*/
+@media (max-width: 760px) {
+
+    .container2 {
+        width: 90%;
+    }
+
+    .container3 {
+        width: 90%;
+    }
+
+
+    .headerSec {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content:center;
+
+  }
+
+ .container3 .headerSec {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content:center;}
+
+ main .headerSec {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+
+}
+
+    .headerSec1 {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+
+}
+    .headerInfo {
+    width: 100%;
+    margin-bottom: -25px;
+  }
+  
+    .headerInfo1 {
+    width: 100%;
+    margin-bottom: -25px;
+  }
+
+    .headerInfo2 {
+    width: 100%;
+    margin-bottom: -25px;
+    text-align: left;
+  }
+
+  .Approach1 {
+    width: 100%;
+    
+}
+
+.Approach2 {
+    width: 100%;
+    
+}
+
+.form {
+    padding-top:10px;
+}
+
+.inline {
+    display: block !important
+}
+
+#book{
+    width: 28%;
+}
+
+.container4 #book{
+    width: 18%;
+}
+
+
+
+#webApp {
+    width: 68%;
+}
+
+.container4 #webApp {
+    width: 80%;
+}
+
+
+.main1 {
+    width: 90%;
+    float: none;;
+}
+.paddingTop {
+    margin: 20px 0 0 0px;
+}
+
+
+  .footerInfo {
+    width: 45%;
+    padding-top: 20px;
+    float: left;
+    
+}
+.footerInfo2 {
+    width: 45%;
+    padding-top: 20px;
+    margin-left: 15px;
+    float: right;
+    
+}
+.footerInfo3 {
+    width: 100%;
+    padding-top: 20px;
+    float: left;
+    text-align: left;
+}
+.socialMedia {
+    margin-bottom: 5%;
+    padding-bottom: 10px;
+    padding-top: 0;
+    margin-top: 10px; 
+    text-align: left;
+    border-bottom: #E0E0E0 2px solid; 
+}
+.Article {
+   flex-direction: column;
+}
+
+.info3{
+    width: 100%;
+}
+.info4{
+    width: 100%;
+}
+
+
+  
+}
+
+/* mobile phone media query*/
+@media (max-width: 480px) {  
+    body {
+        font: 16px/1.5 Tahoma,Arial, Helvetica,sans-serif;
+    }
+
+    .importantText {
+        font-size: 40px;
+
+    }
+
+    .container {
+        width: 95%;
+        margin: auto;
+        overflow: hidden;
+        
+        
+    }
+
+    header .logo {
+        padding-left: 40%;
+        
+    }
+    
+
+    header nav {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+
+    header li {
+        display: block;
+        width: 100%;
+        font: 18px/1.5 Tahoma,Arial, Helvetica,sans-serif;
+        padding: 10px 0 10px 0;
+        text-align: center;
+        border-top: 1px solid #3E60C3;
+        border-bottom: 1px solid #3E60C3;
+    }
+    
+    .Email{
+        width: 95%;
+        margin-bottom: 10px;
+    }
+
+    main a {
+        width: 80%;
+    }
+
+    .container3 a {
+        width: 80%;
+    }
+
+    .button2 {
+        width: 100%;
+    }
+    
+    #book{
+        float: right;
+    }
+
+    .container4 #book{
+        float: left;
+    }
+
+    #webApp {
+        float: left;
+    }
+
+    .footerInfo {
+        width: 100%;
+        float: left;
+        border-bottom: #E0E0E0 2px solid;
+        
+    }
+    .footerInfo2 {
+        width: 100%;
+        float: left;
+        margin: 0;
+        border-bottom: #E0E0E0 2px solid;
+    }
+    .Box {
+        width: 90%;
+    }
+    .logo2{
+        width: 45%;
+    }
+    .team{
+        width: 45%;
+    }
+
+        
+    }
+   
+
+
